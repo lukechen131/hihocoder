@@ -5,7 +5,7 @@ using namespace std;
 #define MAXPLEN 10005
 #define MAXSLEN 1000005
 
-int _next [MAXPLEN] = {-1}; // -1 is used when index<0, so there are no prefix matched, _next[i] = index + 1 = 0;
+int _next [MAXPLEN] = {-1}; // -1 is used when index<0, so there is no prefix matched, _next[i] = index + 1 = 0;
 char p[MAXPLEN];
 char s[MAXSLEN];
 int s_len;
